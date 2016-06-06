@@ -27,7 +27,7 @@ app.config.update(dict(
     USERNAME='admin',
     PASSWORD='default'
 ))
-app.config.from_envvar('FLASKR_SETTINGS', silent=True)
+app.config.from_envvar('FLASKR_SETTINGS', silent=False)
 
 
 def connect_db():
